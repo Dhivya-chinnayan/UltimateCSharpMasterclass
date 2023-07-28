@@ -49,7 +49,7 @@ void SeeAllTodos()
     }
     for (int i = 0; i < todos.Count; i++)
     {
-        Console.WriteLine($"{i + 1}. {todos[i]}");
+        Console.WriteLine($"{i + 1}. {todos[i]}"); //TODO
     }
 }
 
